@@ -1,0 +1,326 @@
+============================================================
+EVALUATION PROMPT FOR: Qwen3-Max (School GenAI)
+Copy the entire content below and paste into Qwen3-Max (School GenAI)
+============================================================
+
+You are a linguistics evaluation assistant. Your task is to answer questions about English sentences based on your linguistic knowledge.
+
+For each sentence, you will be given one or more tasks. Answer each task concisely and precisely.
+
+If asked for options (A, B, C...), respond with only the letter of your chosen answer.
+If asked for a yes/no or judgment question, respond with the exact judgment term.
+
+
+----------------------------------------
+EVALUATION ITEMS
+----------------------------------------
+
+Please answer ALL of the following. For each item, respond concisely.
+
+--- Item 1: DN-01 ---
+Sentence: It was not impossible for Mr Kinnock to form an administration with a minority in the commons.
+
+Task: 判断这句话是“肯定”还是“否定”含义
+  A) 肯定
+  B) 否定
+Answer only the judgment (one word).
+
+--- Item 2: DN-02 ---
+Sentence: With an empire of such a size, it was a difficult but not impossible task she had set herself.
+
+Task: 判断这句话是“肯定”还是“否定”含义
+  A) 肯定
+  B) 否定
+Answer only the judgment (one word).
+
+--- Item 3: DN-03 ---
+Sentence: And to the normal layman (pause) that sounds better than not say nothing at all.
+
+Task: 判断原句表达含义为“比什么都不说好”还是“比说了好”
+  A) 比什么都不说好
+  B) 比说了好
+Answer only the judgment (one word).
+
+--- Item 4: DN-04 ---
+Sentence: At the Clothes Exchange, dear, you don’t need no money down there.
+
+Task: 判断原句表达是“需要钱”还是“不需要钱”含义
+  A) 需要钱
+  B) 不需要钱
+Answer only the judgment (one word).
+
+--- Item 5: DN-05 ---
+Sentence: We don’t need no education.
+Context: Pink Floyd歌曲
+
+Task: 判断原句是“肯定”还是“否定”含义
+  A) 肯定
+  B) 否定
+Answer only the judgment (one word).
+
+--- Item 6: DN-06 ---
+Sentence: Nor did you nothing hear?
+Context: 莎士比亚著作
+
+Task: 判断原句是“肯定”还是“否定”含义
+  A) 肯定
+  B) 否定
+Answer only the judgment (one word).
+
+--- Item 7: RP-01 ---
+Sentence: That meant he and Sara had hours and hours of hanging around together waiting to be called -- and they got to know each other rather well.
+
+Task: 这句话中，know这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 8: RP-02 ---
+Sentence: I cry quietly because I don’t want to wake my mum. But sometimes she is awake as well, and we cling to each other and cry together.
+
+Task: 这句话中，cling这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 9: RP-03 ---
+Sentence: I went after him to ask him what his problem was -- and we squared up to each other like something out of High Noon.
+
+Task: 这句话中，square up这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 10: RP-04 ---
+Sentence: We are sending a message to the world that South Africa is a place where people only kill each other.
+
+Task: 这句话中，kill这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 11: RP-05 ---
+Sentence: It seems to me evident that a family will provide support for each other.
+
+Task: 这句话中，provide support这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 12: RP-06 ---
+Sentence: FOOTBALL’S new Premier League becomes more and more meaningless as millionaires vie with each other to buy the title.
+
+Task: 这句话中，vie这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 13: RP-07 ---
+Sentence: Women ran screaming with children in their arms, and old folk tripped over one another trying to escape the slaughter.
+
+Task: 这句话中，tripped over这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 14: RP-08 ---
+Sentence: It is about creating an expectation that children will share ideas, help one another and make the most of one another’s resources while the teacher is busy.
+
+Task: 这句话中，help这个动作涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 15: RP-09 ---
+Sentence: Because few of us possess universal skills, we learn to value one another’s and to look for the unexpected amongst our colleagues.
+
+Task: 这句话中，one another涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 16: RP-10 ---
+Sentence: How strangely you talk! Are not the two sexes made for one another? And is it not natural for a gentleman to love a pretty woman?
+
+Task: 这句话中，one another涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 17: RP-11 ---
+Sentence: I leave for Tunbridge, my dear, and hope we shall better understand one another on my return.
+
+Task: 这句话中，one another涉及几个人？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 18: RP-12 ---
+Sentence: These two things exist independently of one another.
+
+Task: 这句话中，one another涉及几个事物？
+  A) 两个
+  B) 三个及以上
+
+Task: 对于母语者来说，这个句子在自然语境中是否可接受？
+  A) 可接受
+  B) 不太自然
+
+
+--- Item 19: DG-01 ---
+Sentence: He is John’s friend.
+
+Task: 这句话能否改写为“He is a friend of John’s.”而不改变核心含义？
+  A) 可以
+  B) 不可以
+
+Task: 说话人用He is John’s friend.而非He is a friend of John’s.，更可能的原因是什么？
+  A) 强调John这个已知人物
+  B) 强调friend这个新信息
+  C) 语用上没有区别
+
+
+--- Item 20: DG-02 ---
+Sentence: The family is staying in a private apartment loaned by Fergie’s friend.
+
+Task: 这句话能否改写为“The family is staying in a private apartment loaned by a friend of Fergie’s.”而不改变核心含义？
+  A) 可以
+  B) 不可以
+
+Task: 说话人用Fergie’s friend而非a friend of Fergie’s.，更可能的原因是什么？
+  A) 强调Fergie这个已知人物
+  B) 强调friend这个新信息
+  C) 语用上没有区别
+
+
+--- Item 21: DG-03 ---
+Sentence: Later, a friend of Hilton’s called and collected the package saying it was a Christmas present.
+
+Task: 这句话能否改写为“Later, Hilton’s friend called and collected the package saying it was a Christmas present.”而不改变核心含义？
+  A) 可以
+  B) 不可以
+
+Task: 说话人用a friend of Hilton’s而非Hilton’s friend，更可能的原因是什么？
+  A) 强调Hilton这个已知人物
+  B) 强调friend这个新信息
+  C) 语用上没有区别
+
+
+--- Item 22: DG-04 ---
+Sentence: However, since 1979 the company had employed Lina Carr Gomm, a friend of Jane’s, as a full-time Publicity Officer.
+
+Task: 这句话能否改写为“However, since 1979 the company had employed Lina Carr Gomm, Jane’s friend, as a full-time Publicity Officer.”而不改变核心含义？
+  A) 可以
+  B) 不可以
+
+Task: 说话人用a friend of Jane’s而非Jane’s friend，更可能的原因是什么？
+  A) 强调Jane这个已知人物
+  B) 强调friend这个新信息
+  C) 语用上没有区别
+
+
+--- Item 23: DG-05 ---
+Sentence: The teacher knew that Sherman was combining the presentation of the collar and Koko’s picture to communicate something rather specific but was uncertain as to what.
+Context: Koko是一只大猩猩
+
+Task: Koko’s picture表达哪种关系？
+  A) 所属（Koko拥有的照片）
+  B) 主体（以Koko为主题的照片）
+  C) 创作（Koko创作的照片）
+  D) 以上都可以，取决于语境
+
+Task: Koko’s picture是否可以替换为a picture of Koko’s而不改变含义？
+  A) 可以
+  B) 不可以
+
+
+--- Item 24: DG-06 ---
+Sentence: The Brygos Painter’s picture is pure archaic; the other has a strong infusion of the classical though held strictly within the archaic framework.
+Context: Brygos Painter是古希腊彩绘花瓶画家
+
+Task: Painter’s picture表达哪种关系？
+  A) 所属（Painter拥有的图片）
+  B) 主体（以Painter为主题的图片）
+  C) 创作（Painter创作的图片）
+  D) 以上都可以，取决于语境
+
+Task: Painter’s picture是否可以替换为a picture of Painter’s而不改变含义？
+  A) 可以
+  B) 不可以
+
+
+--- Item 25: DG-07 ---
+Sentence: My mother’s picture shows only a drab, mouse-like girl with timid eyes.
+
+Task: My mother’s picture最有可能表达哪种关系？
+  A) 所属（母亲拥有的照片）
+  B) 主体（以母亲为主题的照片）
+  C) 创作（母亲拍的照片）
+  D) 以上都可以，取决于语境
+
+Task: My mother’s picture是否可以替换为a picture of my mother’s而不改变含义？
+  A) 可以
+  B) 不可以
+
+
+--- Item 26: DG-08 ---
+Sentence: He couldn’t keep pretending that Viola and Eleanor were the same person because Viola’s photo was signed.
+
+Task: Viola’s photo最有可能表达哪种关系？
+  A) 所属（Viola拥有的照片）
+  B) 主体（以Viola为主题的照片）
+  C) 创作（Viola拍的照片）
+  D) 以上都可以，取决于语境
+
+Task: Viola’s photo是否可以替换为a photo of Viola’s而不改变含义？
+  A) 可以
+  B) 不可以
+
+
+============================================================
+END OF EVALUATION PROMPT
+============================================================

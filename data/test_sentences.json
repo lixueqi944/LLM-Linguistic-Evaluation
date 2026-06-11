@@ -1,0 +1,688 @@
+[
+  {
+    "id": "DN-01",
+    "phenomenon": "双重否定",
+    "function": "Function A（肯定）",
+    "sentence": "It was not impossible for Mr Kinnock to form an administration with a minority in the commons.",
+    "context": "",
+    "task": {
+      "type": "semantic_judgment",
+      "question": "判断这句话是“肯定”还是“否定”含义",
+      "options": [
+        "肯定",
+        "否定"
+      ],
+      "expected": "肯定"
+    },
+    "source": "BNC"
+  },
+  {
+    "id": "DN-02",
+    "phenomenon": "双重否定",
+    "function": "Function A（肯定）",
+    "sentence": "With an empire of such a size, it was a difficult but not impossible task she had set herself.",
+    "context": "",
+    "task": {
+      "type": "semantic_judgment",
+      "question": "判断这句话是“肯定”还是“否定”含义",
+      "options": [
+        "肯定",
+        "否定"
+      ],
+      "expected": "肯定"
+    },
+    "source": "BNC"
+  },
+  {
+    "id": "DN-03",
+    "phenomenon": "双重否定",
+    "function": "Function B（否定强调）",
+    "sentence": "And to the normal layman (pause) that sounds better than not say nothing at all.",
+    "context": "",
+    "task": {
+      "type": "semantic_judgment",
+      "question": "判断原句表达含义为“比什么都不说好”还是“比说了好”",
+      "options": [
+        "比什么都不说好",
+        "比说了好"
+      ],
+      "expected": "比什么都不说好"
+    },
+    "source": "BNC"
+  },
+  {
+    "id": "DN-04",
+    "phenomenon": "双重否定",
+    "function": "Function B（否定强调）",
+    "sentence": "At the Clothes Exchange, dear, you don’t need no money down there.",
+    "context": "",
+    "task": {
+      "type": "semantic_judgment",
+      "question": "判断原句表达是“需要钱”还是“不需要钱”含义",
+      "options": [
+        "需要钱",
+        "不需要钱"
+      ],
+      "expected": "不需要钱"
+    },
+    "source": "BNC"
+  },
+  {
+    "id": "DN-05",
+    "phenomenon": "双重否定",
+    "function": "Function B（否定强调）",
+    "sentence": "We don’t need no education.",
+    "context": "Pink Floyd歌曲",
+    "task": {
+      "type": "semantic_judgment",
+      "question": "判断原句是“肯定”还是“否定”含义",
+      "options": [
+        "肯定",
+        "否定"
+      ],
+      "expected": "否定"
+    },
+    "source": "歌曲"
+  },
+  {
+    "id": "DN-06",
+    "phenomenon": "双重否定",
+    "function": "Function B（否定强调）",
+    "sentence": "Nor did you nothing hear?",
+    "context": "莎士比亚著作",
+    "task": {
+      "type": "semantic_judgment",
+      "question": "判断原句是“肯定”还是“否定”含义",
+      "options": [
+        "肯定",
+        "否定"
+      ],
+      "expected": "否定"
+    },
+    "source": "莎士比亚"
+  },
+  {
+    "id": "RP-01",
+    "phenomenon": "相互代词",
+    "structure": "each other",
+    "rule_compliance": "符合",
+    "sentence": "That meant he and Sara had hours and hours of hanging around together waiting to be called -- and they got to know each other rather well.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，know这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "两个"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-02",
+    "phenomenon": "相互代词",
+    "structure": "each other",
+    "rule_compliance": "符合",
+    "sentence": "I cry quietly because I don’t want to wake my mum. But sometimes she is awake as well, and we cling to each other and cry together.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，cling这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "两个"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-03",
+    "phenomenon": "相互代词",
+    "structure": "each other",
+    "rule_compliance": "符合",
+    "sentence": "I went after him to ask him what his problem was -- and we squared up to each other like something out of High Noon.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，square up这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "两个"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-04",
+    "phenomenon": "相互代词",
+    "structure": "each other",
+    "rule_compliance": "违反",
+    "sentence": "We are sending a message to the world that South Africa is a place where people only kill each other.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，kill这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "三个及以上"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-05",
+    "phenomenon": "相互代词",
+    "structure": "each other",
+    "rule_compliance": "违反",
+    "sentence": "It seems to me evident that a family will provide support for each other.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，provide support这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "三个及以上"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-06",
+    "phenomenon": "相互代词",
+    "structure": "each other",
+    "rule_compliance": "违反",
+    "sentence": "FOOTBALL’S new Premier League becomes more and more meaningless as millionaires vie with each other to buy the title.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，vie这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "三个及以上"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-07",
+    "phenomenon": "相互代词",
+    "structure": "one another",
+    "rule_compliance": "符合",
+    "sentence": "Women ran screaming with children in their arms, and old folk tripped over one another trying to escape the slaughter.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，tripped over这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "三个及以上"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-08",
+    "phenomenon": "相互代词",
+    "structure": "one another",
+    "rule_compliance": "符合",
+    "sentence": "It is about creating an expectation that children will share ideas, help one another and make the most of one another’s resources while the teacher is busy.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，help这个动作涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "三个及以上"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-09",
+    "phenomenon": "相互代词",
+    "structure": "one another",
+    "rule_compliance": "符合",
+    "sentence": "Because few of us possess universal skills, we learn to value one another’s and to look for the unexpected amongst our colleagues.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，one another涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "三个及以上"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-10",
+    "phenomenon": "相互代词",
+    "structure": "one another",
+    "rule_compliance": "违反",
+    "sentence": "How strangely you talk! Are not the two sexes made for one another? And is it not natural for a gentleman to love a pretty woman?",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，one another涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "两个"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-11",
+    "phenomenon": "相互代词",
+    "structure": "one another",
+    "rule_compliance": "违反",
+    "sentence": "I leave for Tunbridge, my dear, and hope we shall better understand one another on my return.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，one another涉及几个人？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "两个"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "RP-12",
+    "phenomenon": "相互代词",
+    "structure": "one another",
+    "rule_compliance": "违反",
+    "sentence": "These two things exist independently of one another.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "quantity_judgment",
+        "question": "这句话中，one another涉及几个事物？",
+        "options": [
+          "两个",
+          "三个及以上"
+        ],
+        "expected": "两个"
+      },
+      {
+        "type": "acceptability_judgment",
+        "question": "对于母语者来说，这个句子在自然语境中是否可接受？",
+        "options": [
+          "可接受",
+          "不太自然"
+        ],
+        "expected": "可接受"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-01",
+    "phenomenon": "双重属格",
+    "noun_category": "friend类",
+    "sentence": "He is John’s friend.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "interchangeability",
+        "question": "这句话能否改写为“He is a friend of John’s.”而不改变核心含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "可以"
+      },
+      {
+        "type": "pragmatic_focus",
+        "question": "说话人用He is John’s friend.而非He is a friend of John’s.，更可能的原因是什么？",
+        "options": [
+          "强调John这个已知人物",
+          "强调friend这个新信息",
+          "语用上没有区别"
+        ],
+        "expected": "强调John这个已知人物"
+      }
+    ],
+    "source": "自造"
+  },
+  {
+    "id": "DG-02",
+    "phenomenon": "双重属格",
+    "noun_category": "friend类",
+    "sentence": "The family is staying in a private apartment loaned by Fergie’s friend.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "interchangeability",
+        "question": "这句话能否改写为“The family is staying in a private apartment loaned by a friend of Fergie’s.”而不改变核心含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "可以"
+      },
+      {
+        "type": "pragmatic_focus",
+        "question": "说话人用Fergie’s friend而非a friend of Fergie’s.，更可能的原因是什么？",
+        "options": [
+          "强调Fergie这个已知人物",
+          "强调friend这个新信息",
+          "语用上没有区别"
+        ],
+        "expected": "强调Fergie这个已知人物"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-03",
+    "phenomenon": "双重属格",
+    "noun_category": "friend类",
+    "sentence": "Later, a friend of Hilton’s called and collected the package saying it was a Christmas present.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "interchangeability",
+        "question": "这句话能否改写为“Later, Hilton’s friend called and collected the package saying it was a Christmas present.”而不改变核心含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "可以"
+      },
+      {
+        "type": "pragmatic_focus",
+        "question": "说话人用a friend of Hilton’s而非Hilton’s friend，更可能的原因是什么？",
+        "options": [
+          "强调Hilton这个已知人物",
+          "强调friend这个新信息",
+          "语用上没有区别"
+        ],
+        "expected": "强调friend这个新信息"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-04",
+    "phenomenon": "双重属格",
+    "noun_category": "friend类",
+    "sentence": "However, since 1979 the company had employed Lina Carr Gomm, a friend of Jane’s, as a full-time Publicity Officer.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "interchangeability",
+        "question": "这句话能否改写为“However, since 1979 the company had employed Lina Carr Gomm, Jane’s friend, as a full-time Publicity Officer.”而不改变核心含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "可以"
+      },
+      {
+        "type": "pragmatic_focus",
+        "question": "说话人用a friend of Jane’s而非Jane’s friend，更可能的原因是什么？",
+        "options": [
+          "强调Jane这个已知人物",
+          "强调friend这个新信息",
+          "语用上没有区别"
+        ],
+        "expected": "强调friend这个新信息"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-05",
+    "phenomenon": "双重属格",
+    "noun_category": "picture/photo类",
+    "sentence": "The teacher knew that Sherman was combining the presentation of the collar and Koko’s picture to communicate something rather specific but was uncertain as to what.",
+    "context": "Koko是一只大猩猩",
+    "tasks": [
+      {
+        "type": "ambiguity_identification",
+        "question": "Koko’s picture表达哪种关系？",
+        "options": [
+          "所属（Koko拥有的照片）",
+          "主体（以Koko为主题的照片）",
+          "创作（Koko创作的照片）",
+          "以上都可以，取决于语境"
+        ],
+        "expected": "以上都可以，取决于语境"
+      },
+      {
+        "type": "interchangeability",
+        "question": "Koko’s picture是否可以替换为a picture of Koko’s而不改变含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "不可以"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-06",
+    "phenomenon": "双重属格",
+    "noun_category": "picture/photo类",
+    "sentence": "The Brygos Painter’s picture is pure archaic; the other has a strong infusion of the classical though held strictly within the archaic framework.",
+    "context": "Brygos Painter是古希腊彩绘花瓶画家",
+    "tasks": [
+      {
+        "type": "ambiguity_identification",
+        "question": "Painter’s picture表达哪种关系？",
+        "options": [
+          "所属（Painter拥有的图片）",
+          "主体（以Painter为主题的图片）",
+          "创作（Painter创作的图片）",
+          "以上都可以，取决于语境"
+        ],
+        "expected": "创作（Painter创作的图片）"
+      },
+      {
+        "type": "interchangeability",
+        "question": "Painter’s picture是否可以替换为a picture of Painter’s而不改变含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "不可以"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-07",
+    "phenomenon": "双重属格",
+    "noun_category": "picture/photo类",
+    "sentence": "My mother’s picture shows only a drab, mouse-like girl with timid eyes.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "ambiguity_identification",
+        "question": "My mother’s picture最有可能表达哪种关系？",
+        "options": [
+          "所属（母亲拥有的照片）",
+          "主体（以母亲为主题的照片）",
+          "创作（母亲拍的照片）",
+          "以上都可以，取决于语境"
+        ],
+        "expected": "主体（以母亲为主题的照片）"
+      },
+      {
+        "type": "interchangeability",
+        "question": "My mother’s picture是否可以替换为a picture of my mother’s而不改变含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "不可以"
+      }
+    ],
+    "source": "BNC"
+  },
+  {
+    "id": "DG-08",
+    "phenomenon": "双重属格",
+    "noun_category": "picture/photo类",
+    "sentence": "He couldn’t keep pretending that Viola and Eleanor were the same person because Viola’s photo was signed.",
+    "context": "",
+    "tasks": [
+      {
+        "type": "ambiguity_identification",
+        "question": "Viola’s photo最有可能表达哪种关系？",
+        "options": [
+          "所属（Viola拥有的照片）",
+          "主体（以Viola为主题的照片）",
+          "创作（Viola拍的照片）",
+          "以上都可以，取决于语境"
+        ],
+        "expected": "主体（以Viola为主题的照片）"
+      },
+      {
+        "type": "interchangeability",
+        "question": "Viola’s photo是否可以替换为a photo of Viola’s而不改变含义？",
+        "options": [
+          "可以",
+          "不可以"
+        ],
+        "expected": "不可以"
+      }
+    ],
+    "source": "BNC"
+  }
+]

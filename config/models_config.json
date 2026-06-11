@@ -1,0 +1,35 @@
+{
+  "models": [
+    {
+      "name": "doubao",
+      "display_name": "Doubao 1.5 Pro (Volcengine)",
+      "api_type": "openai_compatible",
+      "api_base": "https://ark.cn-beijing.volces.com/api/v3",
+      "model": "ep-20260605175809-p2d6v",
+      "api_key_env": "DOUBAO_API_KEY",
+      "enabled": true,
+      "manual": false
+    },
+    {
+      "name": "gpt41",
+      "display_name": "GPT-4.1 (School GenAI)",
+      "api_type": "manual",
+      "enabled": true,
+      "manual": true
+    },
+    {
+      "name": "qwen3max",
+      "display_name": "Qwen3-Max (School GenAI)",
+      "api_type": "manual",
+      "enabled": true,
+      "manual": true
+    },
+    {
+      "name": "gemini25pro",
+      "display_name": "Gemini 2.5 Pro (School GenAI)",
+      "api_type": "manual",
+      "enabled": true,
+      "manual": true
+    }
+  ]
+}
