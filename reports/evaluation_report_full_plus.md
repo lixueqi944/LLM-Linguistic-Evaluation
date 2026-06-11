@@ -2,7 +2,7 @@
 - Generated: 2026-06-11 15:00
 - Models: GPT-4.1 (School GenAI), Qwen3-Max (School GenAI), Gemini 2.5 Pro (School GenAI), Doubao 1.5 Pro (Volcengine)
 
-## Results Summary
+## 1. Results
 | Model | Type | Accuracy | Correct / Total |
 |---|---|---|---|
 | GPT-4.1 (School GenAI) | Manual | 97.8% | 45/46 |
@@ -165,6 +165,56 @@
 | DG-07 | My mother’s picture shows only a drab, mouse-like ... | 主体（以母亲为主题的照片）; 不可以 | 第一题：D 第二题：A | ✗ |
 | DG-08 | He couldn’t keep pretending that Viola and Eleanor... | 主体（以Viola为主题的照片）; 不可以 | 第一题：B 第二题：B | ✓ |
 
+## 2. Performance by Linguistic Dimension
+
+Breaking down accuracy by linguistic dimension across all four models:
+
+| Dimension | Description | GPT-4.1 | Qwen3-Max | Gemini 2.5 Pro | Doubao 1.5 Pro |
+|---|---|---|---|---|---|
+| **Semantic Judgment** | Interpret meaning of target structure | 100.0% (6/6) | 100.0% (6/6) | 100.0% (6/6) | 100.0% (6/6) |
+| **Quantity Judgment** | Identify number of participants | 100.0% (12/12) | 100.0% (12/12) | 100.0% (12/12) | 83.3% (10/12) |
+| **Acceptability Judgment** | Judge naturalness in context | 100.0% (12/12) | 100.0% (12/12) | 100.0% (12/12) | 100.0% (12/12) |
+| **Ambiguity Identification** | Recognize semantic ambiguity | 75.0% (3/4) | 75.0% (3/4) | 75.0% (3/4) | 50.0% (2/4) |
+| **Interchangeability** | Judge interchangeability of structures | 100.0% (8/8) | 100.0% (8/8) | 75.0% (6/8) | 75.0% (6/8) |
+| **Pragmatic Focus** | Identify pragmatic function | 100.0% (4/4) | 100.0% (4/4) | 75.0% (3/4) | 100.0% (4/4) |
+
+*Semantic Judgment: tested on Double Negation items*
+*Quantity & Acceptability: tested on Reciprocal Pronouns items*
+*Ambiguity, Interchangeability & Pragmatic Focus: tested on Double Genitive items*
+
+### Radar Chart Overview
+
+![Model Performance Radar Chart](radar_chart.svg)
+## 3. Discussion
+
+### Double Negation (100% - all models)
+
+All models achieved perfect scores on double negation.
+
+This might be because the semantic rules of double negation are relatively clear - either it cancels out the negation and turns it into a positive, or it emphasizes that it remains a negation. There are also plenty of such examples in the training data.
+
+### Reciprocal Pronouns
+
+All models handled reciprocal pronouns well. The three manually tested models scored 12/12, while Doubao (tested automatically via API) showed minor variation.
+
+The only errors were on RP-10 and RP-11, where Doubao consistently answered three or more instead of two across all five runs. Both sentences contain explicit participant cues (the two sexes, we), yet the error persisted, suggesting this may not be random fluctuation.
+
+### Double Genitive (most challenging)
+
+This phenomenon showed the most variation across models. The picture/photo category (DG-05 to DG-08) required distinguishing possession vs depiction vs creation readings.
+
+Most models handled the friend category (DG-01 to DG-04) correctly, but errors increased significantly in the picture/photo category (DG-05 to DG-08). From a linguistic perspective, picture/photo nouns allow three genitive readings (possession, depiction, creation), while friend nouns allow fewer. LLMs struggled more with the more ambiguous category, suggesting they are less reliable when multiple interpretations are possible.
+
+### Methodological Note
+
+Even at temperature=0, the same model gave different answers across multiple runs (Doubao ranged 84.8% to 87.0%). Additionally, using a stricter prompt format also changed the results - accuracy dropped from 87.0% to 84.8%. This suggests that LLM evaluation results are sensitive to both prompt phrasing and inherent response variability, and single-run results should be interpreted as approximate rather than definitive.
+## 4. Conclusion
+
+1. The four models achieved accuracy rates between 87% and 97.8% across three linguistic phenomena, indicating a considerable understanding of English grammatical structures.
+
+2. All models scored 100% on double negation. Errors mainly appeared in double genitive (ambiguous genitive readings) and reciprocal pronouns (collective noun distinction), suggesting that LLMs are less reliable when handling structures with semantic ambiguity.
+
+3. This project demonstrates that combining linguistic knowledge with automated evaluation tools can effectively assess LLM language capabilities and provides a foundation for more systematic evaluations in the future.
 ---
-*Report structure adapted from linguistic evaluation methodology*
-*2026-06-11 15:00*
+*Results and analysis by the author using an automated evaluation framework*
+*2026-06-11*
