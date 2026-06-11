@@ -39,7 +39,6 @@ AI-Linguist-Portfolio/
 │   └── prompt_{model}.txt
 └── reports/
     ├── evaluation_report_doubao_*.md
-    ├── evaluation_report_full_*.md
     ├── evaluation_report_full_plus.md   - With dimension comparison table and radar chart
     └── radar_chart.svg                 - Radar visualization by linguistic dimension
 ```
