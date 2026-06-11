@@ -223,12 +223,12 @@ if completed:
                 if pk == "双重否定":
                     exp = s["task"]["expected"]
                     sc = chr(10003) if r["scores"].get(s["task"]["type"], 0) == 1 else chr(10007)
-                    lines.append(f"| {r['id']} | {s['sentence'][:50]}... | {exp} | {r['response'][:40]} | {sc} |")
+                    lines.append(f"| {r['id']} | {s['sentence'][:50]}... | {exp} | {r['response'][:40].replace(chr(10), ' ')} | {sc} |")
                 else:
                     exp = "; ".join(t["expected"] for t in s.get("tasks", [s.get("task")]))
                     all_ok = all(v == 1 for v in r["scores"].values())
                     sc = chr(10003) if all_ok else chr(10007)
-                    lines.append(f"| {r['id']} | {s['sentence'][:50]}... | {exp} | {r['response'][:40]} | {sc} |")
+                    lines.append(f"| {r['id']} | {s['sentence'][:50]}... | {exp} | {r['response'][:40].replace(chr(10), ' ')} | {sc} |")
             lines.append("")
     lines.append("---")
     lines.append("*Report structure adapted from linguistic evaluation methodology*")
